@@ -5,10 +5,10 @@ This repository contains the code for our paper [SpanNER: Named EntityRe-/Recogn
 
 ### Requirements
 - `python3`
-- [PyTorch](https://pytorch.org)
-- [pytorch-lightning](https://github.com/PyTorchLightning/pytorch-lightning)
+- `PyTorch`
+- `pytorch-lightning`
 
-Then run the following script to install the remaining dependencies,
+Run the following script to install the dependencies,
 - `pip3 install -r requirements.txt`
 
 
