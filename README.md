@@ -5,7 +5,8 @@ Two roles of span prediction models (boxes in blue):
 * as a base NER system 
 * as a system combiner.
 
-![show fig](https://github.com/anonymous4nlp/SpanNER/raw/main/img/spanner.png)
+
+![show fig](https://github.com/neulab/SpanNER/blob/main/pic/spanner.png)
 
 This repository contains the code for our paper [SpanNER: Named EntityRe-/Recognition as Span Prediction](https://arxiv.org/pdf/2106.00641v1.pdf).
 
