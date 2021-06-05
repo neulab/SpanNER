@@ -19,9 +19,15 @@ Run the following script to install the dependencies,
 - `pip3 install -r requirements.txt`
 
 
-## How to run?
+### How to run?
 `./run_conll03_spanner.sh`
 
+
+### Data Preprocessing
+The code for data preprocessing are shown on the folder: `dataprocess`.
+
+Given the `path` of your datasets with bio format, and the path to store the datasets with the new format. And run:
+- `python3 bio2mrcformat.py`
 
 
 
