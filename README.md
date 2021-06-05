@@ -1,5 +1,4 @@
-# SpanNER
-SpanNER: Named EntityRe-/Recognition as Span Prediction
+## SpanNER: Named EntityRe-/Recognition as Span Prediction
 
 Two roles of span prediction models (boxes in blue): 
 * as a base NER system 
