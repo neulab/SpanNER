@@ -46,8 +46,9 @@ The download links of the datasets used in this work are shown as follows:
 
 ## Prepare Models
 
-For English Datasets, we use [BERT-Large](https://github.com/google-research/bert)
-For Dutch and Spanish Datasets, we use [BERT-Multilingual-Base](https://huggingface.co/bert-base-multilingual-uncased)
+For English Datasets, we use [BERT-Large](https://github.com/google-research/bert).
+
+For Dutch and Spanish Datasets, we use [BERT-Multilingual-Base](https://huggingface.co/bert-base-multilingual-uncased).
 
 
 
@@ -58,7 +59,9 @@ For Dutch and Spanish Datasets, we use [BERT-Multilingual-Base](https://huggingf
 
 Here, we give CoNLL-2003 as an example. You may need to change the `DATA_DIR`, `PRETRAINED`, `dataname`, `n_class` to your own dataset path, pre-trained model path, dataset name, and the number of labels in the dataset, respectively.
 
-```./run_conll03_spanner.sh```
+```
+./run_conll03_spanner.sh
+```
 
 
 
@@ -71,7 +74,9 @@ More base model's result-files can be download from [ExplainaBoard-download](htt
 ### Combination
 Put your result-files with different models in `data/results` folder, then run:
 
-```python comb_voting.py```
+```
+python comb_voting.py
+```
 
 Here, we provided four system combination methods, including: 
 
