@@ -2,7 +2,9 @@
 
 This repository contains the code for our paper [SpanNER: Named EntityRe-/Recognition as Span Prediction](https://arxiv.org/pdf/2106.00641v1.pdf).
 
-### Overview
+The model designed in this work has been deployed into [ExplainaBoard](http://explainaboard.nlpedia.ai/leaderboard/task-ner/index.php).
+
+## Overview
 
 We investigate complementary advantages of systems based on different paradigms: span prediction model and sequence labeling framework. We then reveal that span prediction, simultaneously, can serve as a system combiner to re-recognize named entities from different systems’ outputs. We experimentally implement 154 systems on 11
 datasets, covering three languages, comprehensive results show the effectiveness of span prediction models that both serve as base NER systems and system combiners.
@@ -12,11 +14,11 @@ datasets, covering three languages, comprehensive results show the effectiveness
 * as a system combiner. -->
 
 <div  align="center">
- <img src="pic/spanner.png" width = "600" alt="d" align=center />
+ <img src="pic/spanner.png" width = "550" alt="d" align=center />
 </div>
 
 
-### Requirements
+## Requirements
 
 - `python3`
 - `PyTorch`
@@ -26,17 +28,33 @@ Run the following script to install the dependencies,
 - `pip3 install -r requirements.txt`
 
 
-### How to run?
+## How to run?
 
 `./run_conll03_spanner.sh`
 
 
-### Data Preprocessing
+## Data Preprocessing
 
-The code for data preprocessing are shown on the folder: `dataprocess`.
+The dataset needs to be preprocessed, before running the model.
+We provide `dataprocess/bio2spannerformat.py` for reference, which gives the CoNLL-2003 as an example.
+First, you need to download datasets, and then convert them into BIO2 tagging format. The download link of the datasets used in this work is shown as follows:
+- [CoNLL-2003](https://www.clips.uantwerpen.be/conll2003/ner/)
+- [CoNLL-2002](https://www.clips.uantwerpen.be/conll2002/ner/)
+- [OntoNotes 5.0](https://catalog.ldc.upenn.edu/LDC2013T19)
+- [WNUT-2016](http://noisy-text.github.io/2016/ner-shared-task.html)
+- [WNUT-2017](http://noisy-text.github.io/2017/emerging-rare-entities.html)
 
-Given the `path` of your datasets with bio format, and the path to store the datasets with the new format. And run:
-- `python3 bio2mrcformat.py`
+
+
+## Prepare Models
+
+For English Datasets, we use [BERT-Large](https://github.com/google-research/bert)
+
+For Dutch and Spanish Datasets, we use [BERT-Multilingual-Base](https://huggingface.co/bert-base-multilingual-uncased)
+
+
+
+
 
 
 
