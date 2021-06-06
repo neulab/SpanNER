@@ -26,7 +26,7 @@ datasets, covering three languages, comprehensive results show the effectiveness
 
 ## Demo
 <div  align="center">
- <img src="demo.gif" width = "550" alt="d" align=center />
+ <img src="pic/demo.gif" width = "550" alt="d" align=center />
 </div>
 
 ## Quick Installation
