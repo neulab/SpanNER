@@ -1,4 +1,11 @@
 ## SpanNER: Named EntityRe-/Recognition as Span Prediction
+[**Introduction**](#introduction) | 
+[**Web Tool**](https://github.com/neulab/ExplainaBoard#web-based-toolkit-quick-learning) |
+[**API Tool**](#api-based-toolkit-quick-installation) |
+[**Download**](#download-system-outputs) |
+[**Paper**](https://arxiv.org/pdf/2104.06387.pdf) |
+[**Video**](https://www.youtube.com/watch?v=3X6NgpbN_GU) |
+[**Bib**](http://explainaboard.nlpedia.ai/explainaboard.bib)
 
 This repository contains the code for our paper [SpanNER: Named EntityRe-/Recognition as Span Prediction](https://arxiv.org/pdf/2106.00641v1.pdf).
 
