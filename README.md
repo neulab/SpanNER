@@ -1,5 +1,6 @@
 ## SpanNER: Named EntityRe-/Recognition as Span Prediction
 [**Overview**](https://hub.fastgit.org/neulab/SpanNER#overview) | 
+[**Demo**](https://hub.fastgit.org/neulab/SpanNER#demo) | 
 [**Installation**](https://hub.fastgit.org/neulab/SpanNER#quick-installation) |
 [**Preprocessing**](https://hub.fastgit.org/neulab/SpanNER#data-preprocessing) |
 [**Prepare Models**](https://hub.fastgit.org/neulab/SpanNER#prepare-models) |
