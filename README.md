@@ -1,10 +1,10 @@
 ## SpanNER: Named EntityRe-/Recognition as Span Prediction
-[**Overview**](#introduction) | 
-[**Installation**](https://github.com/neulab/ExplainaBoard#web-based-toolkit-quick-learning) |
-[**API Tool**](#api-based-toolkit-quick-installation) |
-[**Download**](#download-system-outputs) |
-[**Paper**](https://arxiv.org/pdf/2104.06387.pdf) |
-[**Video**](https://www.youtube.com/watch?v=3X6NgpbN_GU) |
+[**Overview**](https://hub.fastgit.org/neulab/SpanNER#overview) | 
+[**Installation**](https://hub.fastgit.org/neulab/SpanNER#quick-installation) |
+[**Preprocessing**](https://hub.fastgit.org/neulab/SpanNER#data-preprocessing) |
+[**Prepare Models**](https://hub.fastgit.org/neulab/SpanNER#prepare-models) |
+[**Running**](https://hub.fastgit.org/neulab/SpanNER#how-to-run) |
+[**System Combination**](https://hub.fastgit.org/neulab/SpanNER#system-combination) |
 [**Bib**](http://explainaboard.nlpedia.ai/explainaboard.bib)
 
 This repository contains the code for our paper [SpanNER: Named EntityRe-/Recognition as Span Prediction](https://arxiv.org/pdf/2106.00641v1.pdf).
@@ -100,6 +100,15 @@ Here, we provided four system combination methods, including:
 </div>
 
 
+## Bib
 
+```
+@article{fu2021spanner,
+  title={SpanNer: Named Entity Re-/Recognition as Span Prediction},
+  author={Fu, Jinlan and Huang, Xuanjing and Liu, Pengfei},
+  journal={arXiv preprint arXiv:2106.00641},
+  year={2021}
+}
+```
 
 
