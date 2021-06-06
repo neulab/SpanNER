@@ -28,16 +28,14 @@ Run the following script to install the dependencies,
 - `pip3 install -r requirements.txt`
 
 
-## How to run?
-
-`./run_conll03_spanner.sh`
-
 
 ## Data Preprocessing
 
 The dataset needs to be preprocessed, before running the model.
-We provide `dataprocess/bio2spannerformat.py` for reference, which gives the CoNLL-2003 as an example.
-First, you need to download datasets, and then convert them into BIO2 tagging format. The download link of the datasets used in this work is shown as follows:
+We provide `dataprocess/bio2spannerformat.py` for reference, which gives the CoNLL-2003 as an example. 
+First, you need to download datasets, and then convert them into BIO2 tagging format. We provided the CoNLL-2003 dataset with BIO format in `data/conll03_bio`, and its preprocessed format dataset `data/conll03`.
+
+The download links of the datasets used in this work are shown as follows:
 - [CoNLL-2003](https://www.clips.uantwerpen.be/conll2003/ner/)
 - [CoNLL-2002](https://www.clips.uantwerpen.be/conll2002/ner/)
 - [OntoNotes 5.0](https://catalog.ldc.upenn.edu/LDC2013T19)
@@ -49,9 +47,33 @@ First, you need to download datasets, and then convert them into BIO2 tagging fo
 ## Prepare Models
 
 For English Datasets, we use [BERT-Large](https://github.com/google-research/bert)
-
 For Dutch and Spanish Datasets, we use [BERT-Multilingual-Base](https://huggingface.co/bert-base-multilingual-uncased)
 
+
+
+
+
+
+## How to run?
+
+Here, we give CoNLL-2003 as an example. You may need to change the `DATA_DIR`, `PRETRAINED`, `dataname`, `n_class` to your own dataset path, pre-trained model path, dataset name, and the number of labels in the dataset, respectively.
+
+`./run_conll03_spanner.sh`
+
+
+
+## System Combination
+
+### Base Model
+We provided 12 base model result-files of CoNLL-2003 dataset in `combination/results`.
+More base model's result-files can be download from [ExplainaBoard-download](http://explainaboard.nlpedia.ai/download.html).
+
+### Combination
+Put your result-files with different models in `data/results` folder, then run:
+
+`python comb_voting.py`. 
+
+Here, we provided four system combination methods, including: SpanNER, Majority voting (VM), Weighted voting base on overall F1-score (VOF1), Weighted voting base on class F1-score (VCF1).
 
 
 
