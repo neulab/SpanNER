@@ -87,7 +87,10 @@ Here, we provided four system combination methods, including:
 - Weighted voting base on overall F1-score (VOF1), 
 - Weighted voting base on class F1-score (VCF1).
 
-
+### Results at a Glance
+<div  align="center">
+ <img src="pic/comb_res.png" width = "550" alt="d" align=center />
+</div>
 
 
 
