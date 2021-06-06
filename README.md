@@ -1,24 +1,23 @@
 ## SpanNER: Named EntityRe-/Recognition as Span Prediction
 
-Two roles of span prediction models (boxes in blue): 
+This repository contains the code for our paper [SpanNER: Named EntityRe-/Recognition as Span Prediction](https://arxiv.org/pdf/2106.00641v1.pdf).
+
+### Overview
+
+We investigate complementary advantages of systems based on different paradigms: span prediction model and sequence labeling framework. We then reveal that span prediction, simultaneously, can serve as a system combiner to re-recognize named entities from different systems’ outputs. We experimentally implement 154 systems on 11
+datasets, covering three languages, comprehensive results show the effectiveness of span prediction models that both serve as base NER systems and system combiners.
+
+<!-- Two roles of span prediction models (boxes in blue): 
 * as a base NER system 
-* as a system combiner.
+* as a system combiner. -->
 
-
-<!-- <img src="https://hub.fastgit.org/neulab/SpanNER/blob/main/pic/spanner.jpg" width="200" height="200" alt="ff"/><br/> -->
-
-
-
-<!-- ![](pic/spanner.png) -->
 <div  align="center">
  <img src="pic/spanner.png" width = "600" alt="d" align=center />
 <div>
 
 
-
-This repository contains the code for our paper [SpanNER: Named EntityRe-/Recognition as Span Prediction](https://arxiv.org/pdf/2106.00641v1.pdf).
-
 ### Requirements
+
 - `python3`
 - `PyTorch`
 - `pytorch-lightning`
@@ -28,10 +27,12 @@ Run the following script to install the dependencies,
 
 
 ### How to run?
+
 `./run_conll03_spanner.sh`
 
 
 ### Data Preprocessing
+
 The code for data preprocessing are shown on the folder: `dataprocess`.
 
 Given the `path` of your datasets with bio format, and the path to store the datasets with the new format. And run:
