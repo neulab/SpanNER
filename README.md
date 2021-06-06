@@ -7,11 +7,9 @@ Two roles of span prediction models (boxes in blue):
 
 <!-- <img src="https://hub.fastgit.org/neulab/SpanNER/blob/main/pic/spanner.jpg" width="200" height="200" alt="ff"/><br/> -->
 
-<<!-- img src="https://github.com/neulab/SpanNER/blob/master/pic/spanner.jpg" width="200" height="200" alt="test"/><br/> -->
 
 
-
-![](pic/spanner.png)
+![](pic/spanner.png =70x70)
 
 
 
