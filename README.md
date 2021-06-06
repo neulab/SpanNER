@@ -10,9 +10,9 @@ Two roles of span prediction models (boxes in blue):
 
 
 <!-- ![](pic/spanner.png) -->
-
- <img src="pic/spanner.png" width = "300" height = "200" alt="d" align=center />
-
+<div  align="center">
+ <img src="pic/spanner.png" width = "600" alt="d" align=center />
+<div>
 
 
 
