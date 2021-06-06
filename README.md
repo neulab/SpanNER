@@ -25,7 +25,9 @@ datasets, covering three languages, comprehensive results show the effectiveness
 - `pytorch-lightning`
 
 Run the following script to install the dependencies,
-```pip3 install -r requirements.txt```
+```
+pip3 install -r requirements.txt
+```
 
 
 
