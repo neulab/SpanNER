@@ -1,6 +1,6 @@
 ## SpanNER: Named EntityRe-/Recognition as Span Prediction
-[**Introduction**](#introduction) | 
-[**Web Tool**](https://github.com/neulab/ExplainaBoard#web-based-toolkit-quick-learning) |
+[**Overview**](#introduction) | 
+[**Installation**](https://github.com/neulab/ExplainaBoard#web-based-toolkit-quick-learning) |
 [**API Tool**](#api-based-toolkit-quick-installation) |
 [**Download**](#download-system-outputs) |
 [**Paper**](https://arxiv.org/pdf/2104.06387.pdf) |
@@ -25,7 +25,7 @@ datasets, covering three languages, comprehensive results show the effectiveness
 </div>
 
 
-## Requirements
+## Quick Installation
 
 - `python3`
 - `PyTorch`
