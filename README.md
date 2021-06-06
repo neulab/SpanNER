@@ -6,7 +6,15 @@ Two roles of span prediction models (boxes in blue):
 
 
 <!-- <img src="https://hub.fastgit.org/neulab/SpanNER/blob/main/pic/spanner.jpg" width="200" height="200" alt="ff"/><br/> -->
-![](pic/spanner.jpg)
+
+<img src="https://github.com/neulab/SpanNER/blob/master/pic/spanner.jpg" width="200" height="200" alt="test"/><br/>
+
+
+
+<!-- ![](pic/spanner.jpg) -->
+
+
+
 
 
 This repository contains the code for our paper [SpanNER: Named EntityRe-/Recognition as Span Prediction](https://arxiv.org/pdf/2106.00641v1.pdf).
