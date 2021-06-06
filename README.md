@@ -26,9 +26,12 @@ datasets, covering three languages, comprehensive results show the effectiveness
 </div>
 
 ## Demo
+
+We deploy SpanNER into the [ExplainaBoard](http://explainaboard.nlpedia.ai/leaderboard/task-ner/index.php).
 <div  align="center">
- <img src="pic/demo.gif" width = "550" alt="d" align=center />
+ <img src="pic/demo.gif"  align=center />
 </div>
+
 
 ## Quick Installation
 
