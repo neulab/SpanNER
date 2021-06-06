@@ -5,7 +5,7 @@
 [**Prepare Models**](https://hub.fastgit.org/neulab/SpanNER#prepare-models) |
 [**Running**](https://hub.fastgit.org/neulab/SpanNER#how-to-run) |
 [**System Combination**](https://hub.fastgit.org/neulab/SpanNER#system-combination) |
-[**Bib**](http://explainaboard.nlpedia.ai/explainaboard.bib)
+[**Bib**](https://hub.fastgit.org/neulab/SpanNER#bib)
 
 This repository contains the code for our paper [SpanNER: Named EntityRe-/Recognition as Span Prediction](https://arxiv.org/pdf/2106.00641v1.pdf).
 
