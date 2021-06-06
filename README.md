@@ -24,6 +24,10 @@ datasets, covering three languages, comprehensive results show the effectiveness
  <img src="pic/spanner.png" width = "550" alt="d" align=center />
 </div>
 
+## Demo
+<div  align="center">
+ <img src="demo.gif" width = "550" alt="d" align=center />
+</div>
 
 ## Quick Installation
 
