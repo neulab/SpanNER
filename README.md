@@ -35,7 +35,7 @@ pip3 install -r requirements.txt
 
 The dataset needs to be preprocessed, before running the model.
 We provide `dataprocess/bio2spannerformat.py` for reference, which gives the CoNLL-2003 as an example. 
-First, you need to download datasets, and then convert them into BIO2 tagging format. We provided the CoNLL-2003 dataset with BIO format in `data/conll03_bio`, and its preprocessed format dataset `data/conll03`.
+First, you need to download datasets, and then convert them into BIO2 tagging format. We provided the CoNLL-2003 dataset with BIO format in `data/conll03_bio` folder, and its preprocessed format dataset in `data/conll03` folder.
 
 The download links of the datasets used in this work are shown as follows:
 - [CoNLL-2003](https://www.clips.uantwerpen.be/conll2003/ner/)
@@ -70,11 +70,11 @@ Here, we give CoNLL-2003 as an example. You may need to change the `DATA_DIR`, `
 ## System Combination
 
 ### Base Model
-We provided 12 base model result-files of CoNLL-2003 dataset in `combination/results`.
-More base model's result-files can be download from [ExplainaBoard-download](http://explainaboard.nlpedia.ai/download.html).
+We provided 12 base models (result-files) of CoNLL-2003 dataset in `combination/results`.
+More base model (result-files) can be download from [ExplainaBoard-download](http://explainaboard.nlpedia.ai/download.html).
 
 ### Combination
-Put your result-files with different models in `data/results` folder, then run:
+Put your different base models (result-files) in the `data/results` folder, then run:
 
 ```
 python comb_voting.py
