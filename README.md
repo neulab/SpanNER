@@ -96,7 +96,7 @@ Here, we provided four system combination methods, including:
 
 ### Results at a Glance
 <div  align="center">
- <img src="pic/comb_res.png" width = "1050" alt="d" align=center />
+ <img src="pic/comb_res.png" width = "600" alt="d" align=center />
 </div>
 
 
