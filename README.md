@@ -25,7 +25,7 @@ datasets, covering three languages, comprehensive results show the effectiveness
 - `pytorch-lightning`
 
 Run the following script to install the dependencies,
-- `pip3 install -r requirements.txt`
+```pip3 install -r requirements.txt```
 
 
 
@@ -54,11 +54,11 @@ For Dutch and Spanish Datasets, we use [BERT-Multilingual-Base](https://huggingf
 
 
 
-## How to run?
+## How to Run?
 
 Here, we give CoNLL-2003 as an example. You may need to change the `DATA_DIR`, `PRETRAINED`, `dataname`, `n_class` to your own dataset path, pre-trained model path, dataset name, and the number of labels in the dataset, respectively.
 
-`./run_conll03_spanner.sh`
+```./run_conll03_spanner.sh```
 
 
 
@@ -71,9 +71,14 @@ More base model's result-files can be download from [ExplainaBoard-download](htt
 ### Combination
 Put your result-files with different models in `data/results` folder, then run:
 
-`python comb_voting.py`. 
+```python comb_voting.py```
 
-Here, we provided four system combination methods, including: SpanNER, Majority voting (VM), Weighted voting base on overall F1-score (VOF1), Weighted voting base on class F1-score (VCF1).
+Here, we provided four system combination methods, including: 
+
+- SpanNER, 
+- Majority voting (VM), 
+- Weighted voting base on overall F1-score (VOF1), 
+- Weighted voting base on class F1-score (VCF1).
 
 
 
