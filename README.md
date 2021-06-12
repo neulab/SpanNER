@@ -8,7 +8,7 @@
 [**System Combination**](https://hub.fastgit.org/neulab/SpanNER#system-combination) |
 [**Bib**](https://hub.fastgit.org/neulab/SpanNER#bib)
 
-This repository contains the code for our paper [SpanNER: Named EntityRe-/Recognition as Span Prediction](https://arxiv.org/pdf/2106.00641v1.pdf).
+This repository contains the code for our paper [SpanNER: Named EntityRe-/Recognition as Span Prediction](https://arxiv.org/pdf/2106.00641v1.pdf) (ACL 2021).
 
 The model designed in this work has been deployed into [ExplainaBoard](http://explainaboard.nlpedia.ai/leaderboard/task-ner/index.php).
 
