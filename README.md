@@ -84,8 +84,8 @@ Here, we give CoNLL-2003 as an example. You may need to change the `DATA_DIR`, `
 ## System Combination
 
 ### Base Model
-We provided 12 base models (result-files) of CoNLL-2003 dataset in `combination/results`.
-More base model (result-files) can be download from [ExplainaBoard-download](http://explainaboard.nlpedia.ai/download.html).
+We provided 12 base models (result-files) of the CoNLL-2003 dataset in `combination/results`.
+More base models (result-files) can be downloaded from [ExplainaBoard-download](http://explainaboard.nlpedia.ai/download.html).
 
 ### Combination
 Put your different base models (result-files) in the `data/results` folder, then run:
@@ -98,8 +98,8 @@ Here, we provided four system combination methods, including:
 
 - SpanNER, 
 - Majority voting (VM), 
-- Weighted voting base on overall F1-score (VOF1), 
-- Weighted voting base on class F1-score (VCF1).
+- Weighted voting based on overall F1-score (VOF1), 
+- Weighted voting based on class F1-score (VCF1).
 
 ### Results at a Glance
 <div  align="center">
